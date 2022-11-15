@@ -31,5 +31,5 @@ def getBatchJobGroups(xmlFile, pathnameCSVFile, outputCSVFile):
     bjgDF.to_csv(outputCSVFile)
 
 if __name__ == '__main__':
-    getBatchJobGroups('XMLs\PROD_2022_10_12.xml', 'outputCSV\PathNames_PROD_20221012.csv', 'outputCSV\Batch_Job_Groups_PROD_1.csv')
+    getBatchJobGroups('xml\PROD_20221004.xml', 'csv\Path_Names.csv', 'csv\Batch_Job_Groups.csv')
     

@@ -36,4 +36,4 @@ def getFileTriggers(xmlFile, outputCSVFile):
     fileTriggerDF.to_csv(outputCSVFile)
 
 if __name__ == '__main__':
-    getFileTriggers('XMLs\PROD_20221004.xml', 'outputCSV\FileTriggers_PROD_test_1.csv')
+    getFileTriggers('xml\PROD_20221004.xml', 'csv\File_Triggers.csv')
